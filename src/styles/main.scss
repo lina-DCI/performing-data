@@ -6,7 +6,10 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Write your sass code here or import partials
-
-h1 {
-  color: #14eb43;
+main {
+  margin-top: 3rem;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
 }
