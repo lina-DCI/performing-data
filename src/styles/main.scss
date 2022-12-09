@@ -18,8 +18,28 @@ main {
       height: 22rem;
       object-fit: cover;
     }
-    h2 {
-      font-size: 2.5rem;
+  }
+  #research {
+    .pointer {
+      a {
+        padding: 0 1rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+footer {
+  .foot {
+    display: flex;
+    justify-content: space-between;
+    max-width: 30rem;
+    margin: 0 auto;
+    a {
+      color: #fff;
+    }
+    span {
+      display: inline-block;
     }
   }
 }
