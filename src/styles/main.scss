@@ -22,9 +22,25 @@ main {
     }
   }
   #works {
+    background-image: radial-gradient(
+      circle,
+      #2c344c,
+      #29324c,
+      #262f4c,
+      #232d4b,
+      #202b4b,
+      #1e2948,
+      #1c2644,
+      #1a2441,
+      #18213a,
+      #171f34,
+      #151c2d,
+      #141927
+    );
     .wrapper {
       width: 95%;
       margin: 0 auto;
+
       .tile {
         position: relative;
         width: 100%;
