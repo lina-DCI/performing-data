@@ -1,9 +1,6 @@
 // You can overwrite bootstrap default values here.
 // Refer node_modules/bootstrap/scss/_variables for a full list of variables.
 
-$enable-grid-classes: false;
-$enable-cssgrid: true;
-
 $primary: #2ae011;
 // $secondary: rgb(34, 255, 0);
 /* $danger: #fb28ff; */
@@ -19,15 +16,16 @@ $dark: #141927;
 ); */
 
 $spacer: 1rem;
-$enable-shadows: true;
 
-$font-family-sans-serif: "Open Sans";
-$headings-font-family: "Miriam Libre";
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+$enable-shadows: true;
+$enable-gradients: true;
+
+$font-family-sans-serif: "Open Sans", Arial, Helvetica, sans-serif;
+$headings-font-family: "Miriam Libre", Arial, Helvetica, sans-serif;
 $headings-color: #14eb43;
 $body-color: rgb(0, 0, 0);
-
 $link-color: rgb(0, 0, 0);
 $link-hover-color: $primary;
-$link-decoration: underline;
-
 $box-shadow: 0 0.5rem 0.5rem rgba(35, 35, 35, 0.118);

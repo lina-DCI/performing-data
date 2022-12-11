@@ -6,6 +6,15 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Write your sass code here or import partials
+nav {
+  img {
+    position: relative;
+    right: 1rem;
+    bottom: 0.3rem;
+    width: 20rem;
+    height: 2rem;
+  }
+}
 main {
   margin-top: 3rem;
   #performing-data {
@@ -22,7 +31,8 @@ main {
         position: relative;
         width: 100%;
         aspect-ratio: 1;
-        border: 1px solid rgba(155, 155, 155, 0.482);
+        border: 1px solid rgba(52, 52, 54, 0.721);
+        transition: all ease 100ms;
         .title {
           color: #fff;
           background-color: rgba(0, 0, 0, 0.463);
@@ -33,6 +43,7 @@ main {
           height: 3rem;
           width: 100%;
           padding: 1rem;
+          overflow: hidden;
         }
         .work1 {
           width: 100%;
@@ -108,23 +119,34 @@ main {
             center/cover;
         }
       }
-      .tile:hover {
+      .tile a:hover {
         filter: hue-rotate(-40deg) brightness(130%);
       }
-      .tile:active {
+      .tile a:active {
         filter: hue-rotate(-90deg) brightness(130%);
       }
     }
   }
-  /* #exhibits {
-        .pointer {
-      a {
-        padding: 0 1rem;
-        text-decoration: none;
-        font-size: 1.5rem;
+  #exhibits {
+    ul {
+      padding-left: 0.7rem;
+      li {
+        list-style: none;
+        padding: 0.5rem 0;
+        position: realtive;
+      }
+      li::before {
+        font: var(--fa-font-solid);
+        content: "\f45c";
+        font-size: 0.6rem;
+        color: #14eb43;
+        padding-right: 0.5rem;
+        position: relative;
+        bottom: 0.155rem;
+        left: 0.1rem;
       }
     }
-  } */
+  }
 }
 footer {
   .foot {
