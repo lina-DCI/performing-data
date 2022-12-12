@@ -4,7 +4,7 @@ life zu sehen unter https://lina-dci.github.io/performing-data/
 ## Diese Seite wurde mit Hilfe von DCI Boilerplate sass + parcel erstellt
 
 - die kompilierten daten befinden sich im github-pages-branch.
-- die Zutaten zum kompilieren befinden sich im master-branch unter /source
+- die Zutaten zum kompilieren befinden sich im master-branch unter /src
 
 :-) LG lina
 
